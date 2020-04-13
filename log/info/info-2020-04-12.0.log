@@ -1,0 +1,411 @@
+2020-04-12 13:43:45.803 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 14890 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 13:43:45.806 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 13:43:47.424 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 13:43:47.430 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 13:43:47.456 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 13:43:48.511 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-12 13:43:48.519 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-12 13:43:48.520 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 13:43:48.520 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 13:43:48.580 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-12 13:43:48.580 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2721 ms
+2020-04-12 13:43:48.874 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:43:49.032 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:43:49.035 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-04-12 13:43:49.067 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-12 13:45:46.905 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 15575 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 13:45:46.917 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 13:45:47.498 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 13:45:47.500 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 13:45:47.516 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-04-12 13:45:47.947 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 13:45:47.954 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 13:45:47.954 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 13:45:47.955 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 13:45:48.007 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 13:45:48.007 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1035 ms
+2020-04-12 13:45:48.177 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:45:49.070 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 31b35c21-7fdf-4d0a-a4fc-38a12ce6ded3
+
+2020-04-12 13:45:49.138 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@869d87c, org.springframework.security.web.context.SecurityContextPersistenceFilter@63538bb4, org.springframework.security.web.header.HeaderWriterFilter@fb2e3fd, org.springframework.security.web.csrf.CsrfFilter@4730e0f0, org.springframework.security.web.authentication.logout.LogoutFilter@63cd2cd2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6cd64b3f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@15eb0ae9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2f3166a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@14f40030, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a50d9fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3206174f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37637a24, org.springframework.security.web.session.SessionManagementFilter@3f183caa, org.springframework.security.web.access.ExceptionTranslationFilter@4ba6ec50, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d0b0da6]
+2020-04-12 13:45:49.180 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 13:45:49.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 13:45:49.196 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.742 seconds (JVM running for 3.209)
+2020-04-12 13:46:08.061 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:46:46.227 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 15962 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 13:46:46.230 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 13:46:46.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 13:46:46.827 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 13:46:46.842 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-04-12 13:46:47.280 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 13:46:47.287 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 13:46:47.288 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 13:46:47.288 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 13:46:47.340 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 13:46:47.340 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1074 ms
+2020-04-12 13:46:47.515 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:46:48.082 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 8b5726ee-8b10-49fb-88b1-a00ae3a58148
+
+2020-04-12 13:46:48.150 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44784e2f, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ad1caa2, org.springframework.security.web.header.HeaderWriterFilter@3662bdff, org.springframework.security.web.csrf.CsrfFilter@169268a7, org.springframework.security.web.authentication.logout.LogoutFilter@5399f6c5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e922647, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4afbb6c2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2440022a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47406941, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@65d8dff8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@95eb320, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@737db7f8, org.springframework.security.web.session.SessionManagementFilter@4fa822ad, org.springframework.security.web.access.ExceptionTranslationFilter@50f097b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fbe155]
+2020-04-12 13:46:48.199 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 13:46:48.241 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 13:46:48.244 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.503 seconds (JVM running for 2.949)
+2020-04-12 13:46:53.678 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-12 13:46:53.678 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-12 13:46:53.684 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-12 13:48:39.155 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:49:13.539 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 16597 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 13:49:13.541 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 13:49:14.073 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 13:49:14.075 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 13:49:14.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-04-12 13:49:14.492 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 13:49:14.499 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 13:49:14.500 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 13:49:14.500 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 13:49:14.550 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 13:49:14.551 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 965 ms
+2020-04-12 13:49:14.716 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:49:15.198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 13:49:15.210 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 13:49:15.212 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.115 seconds (JVM running for 2.517)
+2020-04-12 13:49:21.415 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-12 13:49:21.415 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-12 13:49:21.420 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-12 13:49:30.706 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:54:44.813 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 17859 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 13:54:44.814 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 13:54:45.393 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 13:54:45.396 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 13:54:45.418 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 13:54:46.440 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 13:54:47.433 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.0 seconds (JVM running for 4.264)
+2020-04-12 13:54:47.933 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 14:17:57.090 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 23587 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 14:17:57.092 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 14:17:57.680 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 14:17:57.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 14:17:57.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-04-12 14:17:58.101 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 14:17:58.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 14:17:58.108 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 14:17:58.108 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 14:17:58.161 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 14:17:58.161 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1020 ms
+2020-04-12 14:17:58.322 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 14:17:58.825 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 14:17:58.837 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 14:17:58.839 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.278 seconds (JVM running for 2.991)
+2020-04-12 14:18:05.506 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 14:19:26.922 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 23918 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 14:19:26.925 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 14:19:27.527 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 14:19:27.529 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 14:19:27.545 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-04-12 14:19:27.943 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 14:19:27.950 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 14:19:27.950 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 14:19:27.950 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 14:19:27.998 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 14:19:27.999 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1030 ms
+2020-04-12 14:19:28.155 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 14:19:28.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 14:19:28.641 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 14:19:28.643 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.148 seconds (JVM running for 2.553)
+2020-04-12 14:21:48.775 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 14:21:51.545 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 24411 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 14:21:51.548 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 14:21:52.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 14:21:52.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 14:21:52.162 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 14:21:52.579 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 14:21:52.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 14:21:52.588 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 14:21:52.588 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 14:21:52.639 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 14:21:52.639 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1044 ms
+2020-04-12 14:21:52.805 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 14:21:53.303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 14:21:53.316 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 14:21:53.318 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.257 seconds (JVM running for 2.667)
+2020-04-12 14:21:56.044 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:16:04.263 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 24901 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:16:04.269 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:16:05.040 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:16:05.045 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:16:05.068 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 16:16:06.144 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:16:07.161 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.455 seconds (JVM running for 4.849)
+2020-04-12 16:16:07.430 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:17:18.014 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 25294 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:17:18.016 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:17:18.587 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:17:18.589 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:17:18.610 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:17:19.565 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:17:20.369 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 2.889 seconds (JVM running for 4.102)
+2020-04-12 16:17:20.587 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:18:01.764 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 25400 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:18:01.766 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:18:02.313 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:18:02.316 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:18:02.338 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 16:18:03.321 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:18:04.137 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 2.926 seconds (JVM running for 4.278)
+2020-04-12 16:18:04.346 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:18:17.555 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 25490 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:18:17.557 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:18:18.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:18:18.145 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:18:18.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:18:19.161 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:18:19.920 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.19 seconds (JVM running for 4.403)
+2020-04-12 16:18:20.138 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:18:46.160 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 25661 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:18:46.167 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:18:46.845 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:18:46.848 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:18:46.866 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 16:18:47.805 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:18:48.661 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.164 seconds (JVM running for 4.389)
+2020-04-12 16:18:48.860 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:19:19.373 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 25741 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:19:19.375 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 16:19:19.906 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:19:19.908 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:19:19.924 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 16:19:20.334 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 16:19:20.342 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 16:19:20.343 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 16:19:20.343 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 16:19:20.394 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 16:19:20.394 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 923 ms
+2020-04-12 16:19:20.563 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:19:21.067 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 16:19:21.080 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 16:19:21.083 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.252 seconds (JVM running for 2.789)
+2020-04-12 16:19:24.358 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:19:36.556 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 25892 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:19:36.557 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:19:37.189 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:19:37.192 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:19:37.214 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:19:38.207 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:19:39.048 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.065 seconds (JVM running for 4.287)
+2020-04-12 16:19:39.254 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:20:22.289 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 25970 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:20:22.297 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:20:22.898 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:20:22.901 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:20:22.919 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:20:23.863 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:20:24.717 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.046 seconds (JVM running for 4.364)
+2020-04-12 16:20:24.950 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:20:40.073 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 26062 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:20:40.076 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:20:40.938 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:20:40.941 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:20:40.964 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:20:42.180 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:20:43.156 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.905 seconds (JVM running for 6.074)
+2020-04-12 16:21:00.128 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:21:22.579 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 26272 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:21:22.588 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:21:26.161 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:21:26.171 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:21:26.261 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2020-04-12 16:21:34.690 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:21:43.000 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 22.569 seconds (JVM running for 26.354)
+2020-04-12 16:21:44.333 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:21:56.767 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 26490 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:21:56.774 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:22:00.229 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:22:00.240 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:22:00.333 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 Redis repository interfaces.
+2020-04-12 16:22:33.987 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 26772 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:22:33.989 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:22:34.593 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:22:34.596 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:22:34.621 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-12 16:22:35.770 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:22:36.743 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.416 seconds (JVM running for 4.958)
+2020-04-12 16:22:36.975 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:22:53.617 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 26939 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:22:53.619 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:22:54.231 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:22:54.234 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:22:54.258 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:23:37.350 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 27213 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:23:37.352 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:23:38.021 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:23:38.023 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:23:38.043 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 16:23:39.000 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:23:39.807 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.025 seconds (JVM running for 4.347)
+2020-04-12 16:23:39.997 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:24:12.012 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 27425 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:24:12.013 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:24:12.546 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:24:12.548 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:24:12.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:24:13.556 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:24:14.338 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 2.759 seconds (JVM running for 3.978)
+2020-04-12 16:24:14.554 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:24:23.893 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 27535 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:24:23.894 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:24:24.478 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:24:24.481 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:24:24.502 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:24:25.483 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:24:26.296 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.094 seconds (JVM running for 4.253)
+2020-04-12 16:24:26.491 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:26:32.169 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 28208 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:26:32.170 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:26:32.700 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:26:32.702 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:26:32.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:26:33.671 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:26:34.479 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 2.84 seconds (JVM running for 3.915)
+2020-04-12 16:26:34.682 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:26:50.778 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 28293 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:26:50.780 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:26:51.465 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:26:51.467 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:26:51.487 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 16:26:52.396 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:26:53.198 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.051 seconds (JVM running for 4.191)
+2020-04-12 16:26:53.386 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:50:40.958 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 935 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:50:40.959 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:50:41.572 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:50:41.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:50:41.598 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-04-12 16:50:42.571 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:50:43.422 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.017 seconds (JVM running for 4.289)
+2020-04-12 16:50:43.633 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:51:02.800 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 1016 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:51:02.802 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:51:03.409 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:51:03.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:51:03.431 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 16:51:04.132 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-04-12 16:51:28.833 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 1095 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 16:51:28.835 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 16:51:29.371 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 16:51:29.373 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 16:51:29.394 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 16:51:30.472 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 16:51:31.329 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.01 seconds (JVM running for 4.13)
+2020-04-12 16:51:31.571 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:14:19.131 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 2074 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:14:19.134 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 17:14:19.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:14:19.724 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:14:19.739 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 17:14:20.147 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-12 17:14:20.154 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-12 17:14:20.155 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 17:14:20.155 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 17:14:20.207 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 17:14:20.207 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 977 ms
+2020-04-12 17:14:20.472 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:14:20.981 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-12 17:14:20.994 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springBootWeb'
+2020-04-12 17:14:20.996 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.371 seconds (JVM running for 2.84)
+2020-04-12 17:14:27.591 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:16:46.066 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 2202 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:16:46.068 [main] INFO  c.s.s.SpringbootKuangshenApplication - The following profiles are active: dev
+2020-04-12 17:16:46.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:16:46.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:16:46.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 17:16:47.036 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8090 (http)
+2020-04-12 17:16:47.043 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8090"]
+2020-04-12 17:16:47.044 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 17:16:47.044 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 17:16:47.094 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 17:16:47.095 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 931 ms
+2020-04-12 17:16:47.373 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:16:47.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8090"]
+2020-04-12 17:16:47.884 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8090 (http) with context path '/springBootWeb'
+2020-04-12 17:16:47.887 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.288 seconds (JVM running for 2.734)
+2020-04-12 17:16:52.130 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:17:08.261 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 2301 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:17:08.265 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-12 17:17:08.821 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:17:08.823 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:17:08.838 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-04-12 17:17:09.241 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-12 17:17:09.248 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-12 17:17:09.249 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-12 17:17:09.249 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 17:17:09.300 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-12 17:17:09.300 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 908 ms
+2020-04-12 17:17:09.562 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:17:10.061 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-12 17:17:10.074 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-12 17:17:10.076 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.343 seconds (JVM running for 2.771)
+2020-04-12 17:38:51.851 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:38:58.612 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 7147 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:38:58.616 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 17:38:59.289 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:38:59.291 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:38:59.312 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-12 17:39:00.353 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:39:01.146 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.088 seconds (JVM running for 4.364)
+2020-04-12 17:39:01.339 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:41:06.232 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 7676 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:41:06.234 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 17:41:06.791 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:41:06.793 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:41:06.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 17:41:07.870 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:41:08.682 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.083 seconds (JVM running for 4.148)
+2020-04-12 17:41:08.901 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:42:10.243 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 8122 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:42:10.245 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 17:42:10.761 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:42:10.763 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:42:10.781 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-04-12 17:42:11.815 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:42:12.636 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 2.83 seconds (JVM running for 4.016)
+2020-04-12 17:42:12.842 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:42:52.718 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 8404 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:42:52.719 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 17:42:53.408 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:42:53.410 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:42:53.429 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 17:42:54.484 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:42:55.321 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.274 seconds (JVM running for 4.336)
+2020-04-12 17:42:55.518 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:48:38.900 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 10263 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:48:38.904 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 17:48:39.445 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:48:39.447 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:48:39.467 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 17:48:40.519 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:48:41.312 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.014 seconds (JVM running for 4.09)
+2020-04-12 17:48:41.517 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:48:50.101 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 10365 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:48:50.112 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 17:48:50.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:48:50.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:48:50.739 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-04-12 17:48:51.761 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:48:52.528 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.121 seconds (JVM running for 4.175)
+2020-04-12 17:48:52.750 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:51:53.763 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Starting SpringbootKuangshenApplicationTests on sch with PID 11420 (started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-12 17:51:53.765 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-12 17:51:54.299 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-12 17:51:54.302 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-12 17:51:54.325 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-12 17:51:55.408 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 17:51:56.221 [main] INFO  c.s.s.SpringbootKuangshenApplicationTests - Started SpringbootKuangshenApplicationTests in 3.18 seconds (JVM running for 4.299)
+2020-04-12 17:51:56.427 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

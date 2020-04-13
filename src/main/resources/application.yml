@@ -1,0 +1,43 @@
+# 属性不能命名为name，会被系统属性覆盖
+# 配置文件优先级覆盖策略：
+#  file: ./config/
+#  file: ./
+#  classpath: /config/
+#  classpath: /
+#  优先级从高到低，默认是第四个，四个位置配置互补，相同配置项按优先级覆盖
+
+user:
+  id: 1
+  userName: 孙朝辉@qq.com
+  age: 28
+  sex: 男
+
+server:
+  port: 8089
+
+
+
+spring:
+  profiles:
+    active:
+
+
+
+---
+server:
+  port: 8090
+
+spring:
+  profiles: dev
+
+debug: true
+
+
+
+
+---
+server:
+  port: 8091
+
+spring:
+  profiles: test

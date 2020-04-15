@@ -5,16 +5,12 @@
 #  classpath: /config/
 #  classpath: /
 #  优先级从高到低，默认是第四个，四个位置配置互补，相同配置项按优先级覆盖
-
-user:
-  id: 1
-  userName: 孙朝辉@qq.com
-  age: 28
-  sex: 男
-
 server:
   port: 8089
 
+sch:
+  hello:
+    prefix: 你的
 
 
 spring:

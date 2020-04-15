@@ -1,5 +1,0 @@
-resources   static   public
-三个文件夹内的静态资源，resources的优先级最高，
-其次是static，最后是public，后续开发可按需放置资源位置
-
-templates文件夹用于放置thymeleaf解析的HTML文件

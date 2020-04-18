@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+                xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Signin Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+    <link th:href="@{/webjars/bootstrap/4.4.1-1/css/bootstrap.min.css}" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link th:href="@{/css/signin.css}" rel="stylesheet">
+</head>
+
+<body class="text-center" style="background-color: #00FFFF">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm" sec:authorize="hasRole('vip1')">
+            <a th:href="@{/level1/list/1}" class="btn btn-success">1</a>
+            <a th:href="@{/level1/list/2}" class="btn btn-success">2</a>
+        </div>
+        <div class="col-sm" sec:authorize="hasRole('vip2')">
+            <a th:href="@{/level2/list/1}" class="btn btn-success">3</a>
+            <a th:href="@{/level2/list/2}" class="btn btn-success">4</a>
+        </div>
+        <div class="col-sm" sec:authorize="hasRole('vip3')">
+            <a th:href="@{/level3/list/1}" class="btn btn-success">5</a>
+            <a th:href="@{/level3/list/2}" class="btn btn-success">6</a>
+        </div>
+    </div>
+
+<!--    用户没有登录-----没有被认证 !isAuthenticated() -->
+    <div class="row" style="text-align: center" sec:authorize="!isAuthenticated()">
+        <div class="col-md-12">
+            <a th:href="@{/toLogin}">登录</a>
+        </div>
+    </div>
+<!--    用户已被认证-->
+    <div class="row" style="text-align: center" sec:authorize="isAuthenticated()">
+        <div class="col-md-6">
+            <a th:href="@{/logout}">退出</a>
+        </div>
+        <div class="col-md-6">
+            用户：<span sec:authentication="name"></span>
+            角色：<span sec:authentication="principal.authorities"></span>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

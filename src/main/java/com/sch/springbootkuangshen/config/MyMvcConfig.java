@@ -25,6 +25,7 @@ public class MyMvcConfig implements WebMvcConfigurer {
         registry.addViewController("/index.html").setViewName("index");
         registry.addViewController("/dashboard").setViewName("dashboard");
         registry.addViewController("/reLogin").setViewName("index");
+        registry.addViewController("/toLogin").setViewName("security/login");
     }
     /**
      *  注入自定义国际化组件
@@ -36,17 +37,17 @@ public class MyMvcConfig implements WebMvcConfigurer {
     /**
      * 拦截器
      */
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LoginInterceptorConfig())
-                .addPathPatterns("/**")
-                .excludePathPatterns("/webjars/**")
-                .excludePathPatterns("/")
-                .excludePathPatterns("/index")
-                .excludePathPatterns("index.html")
-                .excludePathPatterns("/login")
-                .excludePathPatterns("/css/**")
-                .excludePathPatterns("/images/**")
-                .excludePathPatterns("/js/**");
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(new LoginInterceptorConfig())
+//                .addPathPatterns("/**")
+//                .excludePathPatterns("/webjars/**")
+//                .excludePathPatterns("/")
+//                .excludePathPatterns("/index")
+//                .excludePathPatterns("index.html")
+//                .excludePathPatterns("/login")
+//                .excludePathPatterns("/css/**")
+//                .excludePathPatterns("/images/**")
+//                .excludePathPatterns("/js/**");
+//    }
 }

@@ -1,0 +1,374 @@
+2020-04-18 12:56:33.686 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 30551 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 12:56:33.689 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 12:56:35.828 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 12:56:35.833 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 12:56:35.888 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-04-18 12:56:37.215 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 12:56:37.223 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 12:56:37.224 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 12:56:37.224 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 12:56:37.293 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 12:56:37.293 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3517 ms
+2020-04-18 12:56:38.984 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54657dd2, org.springframework.security.web.context.SecurityContextPersistenceFilter@73437222, org.springframework.security.web.header.HeaderWriterFilter@1c5c616f, org.springframework.security.web.csrf.CsrfFilter@b0e5507, org.springframework.security.web.authentication.logout.LogoutFilter@7c2b58c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3672276e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@71466383, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@706eab5d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a48a7f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e530163, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72725ee1, org.springframework.security.web.session.SessionManagementFilter@2eb917d0, org.springframework.security.web.access.ExceptionTranslationFilter@1744a475, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2650f79]
+2020-04-18 12:56:39.183 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 12:56:39.246 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 12:56:40.573 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 12:56:40.632 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 12:56:40.635 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 8.127 seconds (JVM running for 9.311)
+2020-04-18 12:56:42.695 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 12:56:42.696 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 12:56:42.711 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2020-04-18 13:00:09.781 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:00:09.782 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:00:12.902 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 32126 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:00:12.904 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:00:13.415 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:00:13.416 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:00:13.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-18 13:00:13.872 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:00:13.879 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:00:13.880 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:00:13.880 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:00:13.935 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:00:13.935 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 998 ms
+2020-04-18 13:00:14.643 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@154bd49b, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e17913b, org.springframework.security.web.header.HeaderWriterFilter@151ef57f, org.springframework.security.web.csrf.CsrfFilter@1dc76fa1, org.springframework.security.web.authentication.logout.LogoutFilter@2330e3e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@f288c14, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5fac521d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3a01773b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64f16277, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2650f79, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@5cb5bb88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20e3c449, org.springframework.security.web.session.SessionManagementFilter@5524b72f, org.springframework.security.web.access.ExceptionTranslationFilter@ad9e63e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f08fdce]
+2020-04-18 13:00:14.743 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:00:14.793 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:00:15.241 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:00:15.254 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:00:15.256 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.16 seconds (JVM running for 3.821)
+2020-04-18 13:00:19.437 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:00:19.438 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:00:19.442 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-18 13:02:41.551 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:02:41.551 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:22:10.191 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 5481 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:22:10.210 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:22:10.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:22:10.752 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:22:10.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-04-18 13:22:11.211 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:22:11.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:22:11.219 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:22:11.219 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:22:11.276 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:22:11.276 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1022 ms
+2020-04-18 13:22:11.980 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@764cba, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d654825, org.springframework.security.web.header.HeaderWriterFilter@53a665ad, org.springframework.security.web.csrf.CsrfFilter@4248b963, org.springframework.security.web.authentication.logout.LogoutFilter@476e8796, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6e33fcae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51b35e4e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65753040, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@34f392be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@523d6bdb, org.springframework.security.web.session.SessionManagementFilter@78525ef9, org.springframework.security.web.access.ExceptionTranslationFilter@249e0271, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16eedaa6]
+2020-04-18 13:22:12.083 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:22:12.133 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:22:12.566 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:22:12.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:22:12.583 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.988 seconds (JVM running for 3.635)
+2020-04-18 13:22:16.039 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:22:16.039 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:22:16.046 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-04-18 13:22:54.745 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:22:54.746 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:22:58.341 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 5858 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:22:58.343 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:22:58.953 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:22:58.955 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:22:58.971 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-18 13:22:59.372 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:22:59.379 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:22:59.379 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:22:59.379 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:22:59.432 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:22:59.433 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 998 ms
+2020-04-18 13:23:00.064 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9e2ad91, org.springframework.security.web.context.SecurityContextPersistenceFilter@37d871c2, org.springframework.security.web.header.HeaderWriterFilter@65753040, org.springframework.security.web.csrf.CsrfFilter@53a665ad, org.springframework.security.web.authentication.logout.LogoutFilter@107f4980, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ecab872, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2d9f64c9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@64524dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@285f38f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@153cd6bb, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@11b455e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79d06bbd, org.springframework.security.web.session.SessionManagementFilter@4acb2510, org.springframework.security.web.access.ExceptionTranslationFilter@6ef1a1b9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58496c97]
+2020-04-18 13:23:00.161 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:23:00.205 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:23:00.627 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:23:00.647 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:23:00.650 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.779 seconds (JVM running for 3.267)
+2020-04-18 13:23:04.882 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:23:04.882 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:23:04.887 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-18 13:24:41.532 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:24:41.533 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:24:45.771 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 6335 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:24:45.776 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:24:46.394 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:24:46.396 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:24:46.414 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-18 13:24:46.823 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:24:46.829 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:24:46.830 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:24:46.830 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:24:46.883 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:24:46.883 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 969 ms
+2020-04-18 13:24:47.563 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74dbb1ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@4eed2acf, org.springframework.security.web.header.HeaderWriterFilter@3ab6678b, org.springframework.security.web.csrf.CsrfFilter@6d7cada5, org.springframework.security.web.authentication.logout.LogoutFilter@f08fdce, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d025d1d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57c47a9e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7397c6, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@64524dd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70f822e, org.springframework.security.web.session.SessionManagementFilter@2b59501e, org.springframework.security.web.access.ExceptionTranslationFilter@285f38f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ecab872]
+2020-04-18 13:24:47.661 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:24:47.708 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:24:48.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:24:48.137 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:24:48.139 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.074 seconds (JVM running for 3.562)
+2020-04-18 13:24:52.201 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:24:52.202 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:24:52.209 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-04-18 13:28:59.411 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:28:59.411 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:29:03.080 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 8018 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:29:03.083 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:29:03.701 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:29:03.703 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:29:03.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:29:04.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:29:04.149 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:29:04.149 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:29:04.150 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:29:04.202 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:29:04.203 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1029 ms
+2020-04-18 13:29:04.846 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cbc8d0f, org.springframework.security.web.context.SecurityContextPersistenceFilter@46731692, org.springframework.security.web.header.HeaderWriterFilter@62d73ead, org.springframework.security.web.csrf.CsrfFilter@763cf5b9, org.springframework.security.web.authentication.logout.LogoutFilter@2650f79, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d540566, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3db663d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64f16277, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@77d680e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@37b57b54, org.springframework.security.web.session.SessionManagementFilter@228cea97, org.springframework.security.web.access.ExceptionTranslationFilter@4f3e7344, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6428591a]
+2020-04-18 13:29:04.943 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:29:04.987 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:29:05.415 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:29:05.429 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:29:05.432 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.841 seconds (JVM running for 3.32)
+2020-04-18 13:29:07.475 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:29:07.475 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:29:07.483 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-04-18 13:29:53.388 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:29:53.389 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:29:57.097 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 8256 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:29:57.112 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:29:57.778 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:29:57.780 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:29:57.799 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:29:58.222 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:29:58.229 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:29:58.230 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:29:58.230 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:29:58.285 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:29:58.285 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1048 ms
+2020-04-18 13:29:58.942 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1846579f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1108adc8, org.springframework.security.web.header.HeaderWriterFilter@b0e5507, org.springframework.security.web.csrf.CsrfFilter@55a609dd, org.springframework.security.web.authentication.logout.LogoutFilter@4096aa05, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64f16277, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20011bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c5c616f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4e6f2bb5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cd166b8, org.springframework.security.web.session.SessionManagementFilter@3c46dcbe, org.springframework.security.web.access.ExceptionTranslationFilter@255e5e2e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47fbc56]
+2020-04-18 13:29:59.036 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:29:59.080 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:29:59.482 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:29:59.496 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:29:59.499 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.906 seconds (JVM running for 3.423)
+2020-04-18 13:30:03.266 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:30:03.266 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:30:03.273 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-18 13:34:08.613 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:34:08.614 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:34:11.548 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 9804 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:34:11.551 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:34:12.143 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:34:12.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:34:12.160 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-18 13:34:12.572 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:34:12.578 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:34:12.578 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:34:12.579 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:34:12.632 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:34:12.632 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 990 ms
+2020-04-18 13:34:13.300 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d7cada5, org.springframework.security.web.context.SecurityContextPersistenceFilter@54bca971, org.springframework.security.web.header.HeaderWriterFilter@71466383, org.springframework.security.web.csrf.CsrfFilter@2eb917d0, org.springframework.security.web.authentication.logout.LogoutFilter@8ee0c23, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4893b344, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@205bed61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@10fbbdb, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@78525ef9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@350a94ce, org.springframework.security.web.session.SessionManagementFilter@4088741b, org.springframework.security.web.access.ExceptionTranslationFilter@1e530163, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@40e60ece]
+2020-04-18 13:34:13.398 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:34:13.444 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:34:13.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:34:13.880 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:34:13.882 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.859 seconds (JVM running for 3.473)
+2020-04-18 13:34:19.203 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:34:19.203 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:34:19.208 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-18 13:35:00.385 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:35:00.386 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:35:03.847 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 9978 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:35:03.849 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:35:04.313 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:35:04.315 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:35:04.330 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-18 13:35:04.750 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:35:04.757 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:35:04.758 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:35:04.758 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:35:04.813 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:35:04.813 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 931 ms
+2020-04-18 13:35:05.484 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@715d6168, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f508f3c, org.springframework.security.web.header.HeaderWriterFilter@e4b6f47, org.springframework.security.web.csrf.CsrfFilter@7a2b1eb4, org.springframework.security.web.authentication.logout.LogoutFilter@47fbc56, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@36fc05ff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aedaf61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7808f638, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@4339e0de, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27b2faa6, org.springframework.security.web.session.SessionManagementFilter@71f0b72e, org.springframework.security.web.access.ExceptionTranslationFilter@2ab5afc7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@285f38f6]
+2020-04-18 13:35:05.579 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:35:05.624 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:35:06.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:35:06.050 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:35:06.052 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.887 seconds (JVM running for 3.499)
+2020-04-18 13:35:08.632 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:35:08.632 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:35:08.638 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-18 13:37:53.617 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:37:53.618 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:37:56.536 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 10597 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:37:56.539 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:37:57.171 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:37:57.173 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:37:57.190 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:37:57.626 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:37:57.633 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:37:57.633 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:37:57.634 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:37:57.692 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:37:57.692 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1037 ms
+2020-04-18 13:37:58.391 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57c47a9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c73f672, org.springframework.security.web.header.HeaderWriterFilter@31ff6309, org.springframework.security.web.csrf.CsrfFilter@205bed61, org.springframework.security.web.authentication.logout.LogoutFilter@228cea97, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3baf6936, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ab5afc7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3681037, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3ab6678b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@642505c7, org.springframework.security.web.session.SessionManagementFilter@20a05b32, org.springframework.security.web.access.ExceptionTranslationFilter@aa149ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ef1a1b9]
+2020-04-18 13:37:58.489 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:37:58.537 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:37:58.975 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:37:58.990 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:37:58.992 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.088 seconds (JVM running for 3.611)
+2020-04-18 13:38:04.416 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:38:04.417 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:38:04.426 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-04-18 13:38:58.851 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:38:58.851 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:39:02.057 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 10958 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:39:02.060 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:39:02.695 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:39:02.697 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:39:02.714 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-04-18 13:39:03.123 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:39:03.130 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:39:03.131 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:39:03.131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:39:03.184 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:39:03.184 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1005 ms
+2020-04-18 13:39:03.826 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40712ee9, org.springframework.security.web.context.SecurityContextPersistenceFilter@1846579f, org.springframework.security.web.header.HeaderWriterFilter@3f628ce9, org.springframework.security.web.csrf.CsrfFilter@782bf610, org.springframework.security.web.authentication.logout.LogoutFilter@2aa6311a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a01773b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2650f79, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4defd42, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@67fc2aad, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e53b094, org.springframework.security.web.session.SessionManagementFilter@26d96e5, org.springframework.security.web.access.ExceptionTranslationFilter@4e6f2bb5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cb5bb88]
+2020-04-18 13:39:03.917 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:39:03.962 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:39:04.361 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:39:04.375 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:39:04.377 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.866 seconds (JVM running for 3.398)
+2020-04-18 13:39:09.883 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:39:09.884 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:39:09.891 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-04-18 13:43:16.947 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:43:16.948 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:43:22.431 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 11924 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:43:22.434 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:43:22.948 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:43:22.950 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:43:22.967 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:43:23.402 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:43:23.409 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:43:23.409 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:43:23.409 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:43:23.467 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:43:23.467 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 999 ms
+2020-04-18 13:43:24.195 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62d73ead, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ab7ce48, org.springframework.security.web.header.HeaderWriterFilter@588307f7, org.springframework.security.web.csrf.CsrfFilter@3cf7298d, org.springframework.security.web.authentication.logout.LogoutFilter@3c46dcbe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3681037, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@e322ec9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28f878a0, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1dc76fa1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e141e42, org.springframework.security.web.session.SessionManagementFilter@459cfcca, org.springframework.security.web.access.ExceptionTranslationFilter@6aba5d30, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71f0b72e]
+2020-04-18 13:43:24.321 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:43:24.472 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:43:24.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:43:25.002 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:43:25.005 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.328 seconds (JVM running for 3.987)
+2020-04-18 13:43:25.822 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:43:25.822 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:43:25.830 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-04-18 13:49:41.942 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:49:41.943 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:49:46.122 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 13424 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:49:46.125 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:49:46.757 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:49:46.758 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:49:46.775 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:49:47.190 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:49:47.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:49:47.197 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:49:47.198 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:49:47.251 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:49:47.251 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1024 ms
+2020-04-18 13:49:47.903 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cbc8d0f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d0a61c8, org.springframework.security.web.header.HeaderWriterFilter@7808f638, org.springframework.security.web.csrf.CsrfFilter@e4b6f47, org.springframework.security.web.authentication.logout.LogoutFilter@2650f79, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d540566, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@497aec8c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@37b57b54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@782bf610, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@149c3204, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@77d680e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5c1f6d57, org.springframework.security.web.session.SessionManagementFilter@1e141e42, org.springframework.security.web.access.ExceptionTranslationFilter@69a2b3b6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6428591a]
+2020-04-18 13:49:47.997 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:49:48.042 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:49:48.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:49:48.472 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:49:48.474 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.768 seconds (JVM running for 3.326)
+2020-04-18 13:49:52.081 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:49:52.081 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:49:52.086 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-18 13:50:42.208 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:50:42.209 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:50:45.921 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 13765 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:50:45.928 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:50:46.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:50:46.570 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:50:46.587 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:50:46.995 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:50:47.001 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:50:47.002 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:50:47.002 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:50:47.055 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:50:47.055 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1010 ms
+2020-04-18 13:50:47.698 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f508f3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@43da41e, org.springframework.security.web.header.HeaderWriterFilter@5496c165, org.springframework.security.web.csrf.CsrfFilter@571a9686, org.springframework.security.web.authentication.logout.LogoutFilter@52cb4f50, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@165e389b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2009f9b0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2acbc859, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@2ab5afc7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ed03652, org.springframework.security.web.session.SessionManagementFilter@2a03d65c, org.springframework.security.web.access.ExceptionTranslationFilter@1ff55ff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31d6f3fe]
+2020-04-18 13:50:47.791 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:50:47.836 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:50:48.241 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:50:48.255 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:50:48.257 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.886 seconds (JVM running for 3.355)
+2020-04-18 13:50:55.056 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:50:55.056 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:50:55.063 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-04-18 13:51:43.203 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:51:43.204 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:51:46.943 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 14125 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:51:46.947 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:51:47.593 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:51:47.595 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:51:47.612 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:51:48.014 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:51:48.021 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:51:48.021 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:51:48.021 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:51:48.077 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:51:48.077 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1021 ms
+2020-04-18 13:51:48.744 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4acb2510, org.springframework.security.web.context.SecurityContextPersistenceFilter@702c436b, org.springframework.security.web.header.HeaderWriterFilter@11b377c5, org.springframework.security.web.csrf.CsrfFilter@6c806c8b, org.springframework.security.web.authentication.logout.LogoutFilter@3c35c345, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e00ed0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10fbbdb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8ee0c23, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@62db0521, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7be3a9ce, org.springframework.security.web.session.SessionManagementFilter@5c60b0a0, org.springframework.security.web.access.ExceptionTranslationFilter@3e48d38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d0ecb24]
+2020-04-18 13:51:48.842 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:51:48.892 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:51:49.296 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:51:49.311 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:51:49.314 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.878 seconds (JVM running for 3.345)
+2020-04-18 13:51:52.822 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:51:52.822 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:51:52.828 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-18 13:53:48.765 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:53:48.766 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 13:53:52.466 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 14624 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 13:53:52.468 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 13:53:53.117 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 13:53:53.118 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 13:53:53.136 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 13:53:53.543 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 13:53:53.549 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:53:53.550 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 13:53:53.550 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 13:53:53.602 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 13:53:53.602 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1010 ms
+2020-04-18 13:53:54.261 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@249e0271, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c806c8b, org.springframework.security.web.header.HeaderWriterFilter@12ffd1de, org.springframework.security.web.csrf.CsrfFilter@41ffaeb8, org.springframework.security.web.authentication.logout.LogoutFilter@23f3dbf0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54657dd2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@184fb68d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@129fed45, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@40e60ece, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4893b344, org.springframework.security.web.session.SessionManagementFilter@4096aa05, org.springframework.security.web.access.ExceptionTranslationFilter@3f985a86, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3672276e]
+2020-04-18 13:53:54.354 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 13:53:54.400 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 13:53:54.808 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 13:53:54.822 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 13:53:54.824 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.851 seconds (JVM running for 3.314)
+2020-04-18 13:54:02.580 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 13:54:02.580 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 13:54:02.592 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-04-18 14:03:15.918 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 14:03:15.919 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-18 14:03:19.745 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 17757 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-18 14:03:19.748 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-18 14:03:20.441 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-18 14:03:20.443 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-18 14:03:20.462 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-18 14:03:20.883 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-18 14:03:20.890 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-18 14:03:20.890 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-18 14:03:20.891 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-18 14:03:20.947 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-18 14:03:20.947 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1076 ms
+2020-04-18 14:03:21.595 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75fc1992, org.springframework.security.web.context.SecurityContextPersistenceFilter@51d9b06c, org.springframework.security.web.header.HeaderWriterFilter@68577ba8, org.springframework.security.web.csrf.CsrfFilter@1416a80a, org.springframework.security.web.authentication.logout.LogoutFilter@6dfcffb5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e6f2bb5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41ffaeb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c6b2dd9, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@35e8316e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5fac521d, org.springframework.security.web.session.SessionManagementFilter@8a98f38, org.springframework.security.web.access.ExceptionTranslationFilter@6bbe50c9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5524b72f]
+2020-04-18 14:03:21.690 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-18 14:03:21.735 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-18 14:03:22.151 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-18 14:03:22.165 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-18 14:03:22.168 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 2.934 seconds (JVM running for 3.449)
+2020-04-18 14:03:27.514 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-18 14:03:27.514 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-18 14:03:27.520 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-18 14:15:47.257 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-18 14:15:47.258 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <meta charset="UTF-8">
+    <title>shiro登录</title>
+</head>
+<body>
+<p th:text="${msg}" th:if="${msg != null}" style="color: #FD482C"></p>
+<form th:action="@{/shiro/login}" method="post">
+    username:<label>
+    <input type="text" name="username"/>
+</label>
+    password:<label>
+    <input type="password" name="password"/>
+</label>
+    <input type="submit" value="login">
+</form>
+</body>
+</html>

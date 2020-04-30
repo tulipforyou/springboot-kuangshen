@@ -1,0 +1,249 @@
+2020-04-29 10:10:42.572 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 26987 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-29 10:10:42.579 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-29 10:10:44.497 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 10:10:44.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-29 10:10:44.549 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+2020-04-29 10:10:45.174 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.sch.springbootkuangshen.config.ShiroConfig$$EnhancerBySpringCGLIB$$5d000a82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:10:45.240 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealM' of type [com.sch.springbootkuangshen.config.UserRealM] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:10:45.408 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:10:45.896 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-29 10:10:45.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-29 10:10:45.914 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 10:10:45.914 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-29 10:10:45.998 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-29 10:10:45.998 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3316 ms
+2020-04-29 10:10:47.184 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dfa915a, org.springframework.security.web.context.SecurityContextPersistenceFilter@48d293ee, org.springframework.security.web.header.HeaderWriterFilter@587a1cfb, org.springframework.security.web.csrf.CsrfFilter@767191b1, org.springframework.security.web.authentication.logout.LogoutFilter@4649d70a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@117525fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22587507, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25290bca, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@46963479, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78054f54, org.springframework.security.web.session.SessionManagementFilter@5e1d03d7, org.springframework.security.web.access.ExceptionTranslationFilter@3374b5bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6981f8f3]
+2020-04-29 10:10:47.385 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 10:10:47.438 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-29 10:10:48.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-29 10:10:48.306 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-29 10:10:48.309 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 6.862 seconds (JVM running for 7.698)
+2020-04-29 10:10:57.383 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 10:10:57.383 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 10:10:57.395 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-04-29 10:11:44.651 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-29 10:11:44.651 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-29 10:18:21.215 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 29092 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-29 10:18:21.219 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-29 10:18:22.005 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 10:18:22.007 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-29 10:18:22.024 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-29 10:18:22.290 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.sch.springbootkuangshen.config.ShiroConfig$$EnhancerBySpringCGLIB$$6e16b9b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:18:22.329 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealM' of type [com.sch.springbootkuangshen.config.UserRealM] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:18:22.477 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 10:18:22.695 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-29 10:18:22.702 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-29 10:18:22.703 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 10:18:22.703 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-29 10:18:22.808 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-29 10:18:22.809 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1527 ms
+2020-04-29 10:18:23.701 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21c747a, org.springframework.security.web.context.SecurityContextPersistenceFilter@69aa7d76, org.springframework.security.web.header.HeaderWriterFilter@57a6a933, org.springframework.security.web.csrf.CsrfFilter@4cfa83f9, org.springframework.security.web.authentication.logout.LogoutFilter@7a2ab862, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@49ca94a9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f1266c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64f9f455, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@49fb0bbd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77d4ac52, org.springframework.security.web.session.SessionManagementFilter@1934ad7c, org.springframework.security.web.access.ExceptionTranslationFilter@6f3f0ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ef718de]
+2020-04-29 10:18:23.720 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-29 10:18:23.801 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 10:18:23.847 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-29 10:18:24.290 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-29 10:18:24.305 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-29 10:18:24.333 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 10:18:24.541 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2020-04-29 10:18:24.547 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingHEAD_1
+2020-04-29 10:18:24.553 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-04-29 10:18:24.558 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPUT_1
+2020-04-29 10:18:24.564 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPATCH_1
+2020-04-29 10:18:24.568 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingDELETE_1
+2020-04-29 10:18:24.572 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingOPTIONS_1
+2020-04-29 10:18:24.577 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingTRACE_1
+2020-04-29 10:18:24.591 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-29 10:18:24.606 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-29 10:18:24.608 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 4.3 seconds (JVM running for 4.933)
+2020-04-29 10:18:52.503 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 10:18:52.504 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 10:18:52.509 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-29 11:22:00.573 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:22:00.575 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-29 11:22:05.181 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 9440 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-29 11:22:05.185 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-29 11:22:05.876 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 11:22:05.878 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-29 11:22:05.895 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-29 11:22:06.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.sch.springbootkuangshen.config.ShiroConfig$$EnhancerBySpringCGLIB$$3f54b388] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:22:06.190 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealM' of type [com.sch.springbootkuangshen.config.UserRealM] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:22:06.336 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:22:06.540 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-29 11:22:06.548 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:22:06.549 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 11:22:06.549 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-29 11:22:06.656 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-29 11:22:06.656 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1413 ms
+2020-04-29 11:22:07.492 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1cf336fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@40bb4f87, org.springframework.security.web.header.HeaderWriterFilter@2bc7db89, org.springframework.security.web.csrf.CsrfFilter@66a53104, org.springframework.security.web.authentication.logout.LogoutFilter@74024f3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53d2d002, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@173f1614, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65e22def, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@34208baa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d0cac30, org.springframework.security.web.session.SessionManagementFilter@220c9a63, org.springframework.security.web.access.ExceptionTranslationFilter@6ec63f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34be065a]
+2020-04-29 11:22:07.512 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-29 11:22:07.599 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:22:07.646 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-29 11:22:08.094 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-29 11:22:08.106 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2020-04-29 11:22:08.106 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2020-04-29 11:22:08.132 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:22:08.144 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:22:08.152 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:22:08.166 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-29 11:22:08.168 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.812 seconds (JVM running for 4.374)
+2020-04-29 11:22:12.221 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 11:22:12.222 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 11:22:12.226 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-04-29 11:39:48.889 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:39:48.891 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-29 11:39:53.001 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 14321 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-29 11:39:53.004 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-29 11:39:53.806 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 11:39:53.807 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-29 11:39:53.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-29 11:39:54.102 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.sch.springbootkuangshen.config.ShiroConfig$$EnhancerBySpringCGLIB$$5447360e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:39:54.141 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealM' of type [com.sch.springbootkuangshen.config.UserRealM] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:39:54.284 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:39:54.473 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-29 11:39:54.480 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:39:54.481 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 11:39:54.481 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-29 11:39:54.590 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-29 11:39:54.590 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1458 ms
+2020-04-29 11:39:55.451 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58aa10f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ddc6db2, org.springframework.security.web.header.HeaderWriterFilter@46e3559f, org.springframework.security.web.csrf.CsrfFilter@52227eb2, org.springframework.security.web.authentication.logout.LogoutFilter@580fd26b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a2ab862, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2eda072, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7951c3a2, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@6ccac6f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fb56bea, org.springframework.security.web.session.SessionManagementFilter@32118208, org.springframework.security.web.access.ExceptionTranslationFilter@388623ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b5b5bfe]
+2020-04-29 11:39:55.469 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-29 11:39:55.561 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:39:55.609 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-29 11:39:56.076 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-29 11:39:56.088 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2020-04-29 11:39:56.113 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:39:56.267 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2020-04-29 11:39:56.274 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingHEAD_1
+2020-04-29 11:39:56.280 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-04-29 11:39:56.286 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPUT_1
+2020-04-29 11:39:56.291 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPATCH_1
+2020-04-29 11:39:56.296 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingDELETE_1
+2020-04-29 11:39:56.300 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingOPTIONS_1
+2020-04-29 11:39:56.305 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingTRACE_1
+2020-04-29 11:39:56.316 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:39:56.318 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:39:56.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:39:56.340 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-29 11:39:56.343 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.976 seconds (JVM running for 4.52)
+2020-04-29 11:40:01.044 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 11:40:01.044 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 11:40:01.049 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-29 11:42:08.638 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:42:08.639 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-29 11:42:13.030 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 15180 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-29 11:42:13.033 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-29 11:42:13.691 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 11:42:13.692 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-29 11:42:13.709 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-29 11:42:13.952 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.sch.springbootkuangshen.config.ShiroConfig$$EnhancerBySpringCGLIB$$ba42f36d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:42:13.988 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealM' of type [com.sch.springbootkuangshen.config.UserRealM] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:42:14.129 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:42:14.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-29 11:42:14.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:42:14.312 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 11:42:14.312 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-29 11:42:14.421 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-29 11:42:14.422 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1354 ms
+2020-04-29 11:42:15.201 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e09f1b6, org.springframework.security.web.context.SecurityContextPersistenceFilter@7161457, org.springframework.security.web.header.HeaderWriterFilter@2da99821, org.springframework.security.web.csrf.CsrfFilter@56c8e6f0, org.springframework.security.web.authentication.logout.LogoutFilter@63f9b562, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f80cb79, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@629984eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55b5cd2b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@73613ae5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@557b6a37, org.springframework.security.web.session.SessionManagementFilter@1b482cbf, org.springframework.security.web.access.ExceptionTranslationFilter@6d229b1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3290b1a6]
+2020-04-29 11:42:15.218 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-29 11:42:15.307 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:42:15.355 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-29 11:42:15.801 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-29 11:42:15.813 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2020-04-29 11:42:15.837 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:42:15.991 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2020-04-29 11:42:15.998 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingHEAD_1
+2020-04-29 11:42:16.005 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-04-29 11:42:16.011 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPUT_1
+2020-04-29 11:42:16.016 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPATCH_1
+2020-04-29 11:42:16.021 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingDELETE_1
+2020-04-29 11:42:16.026 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingOPTIONS_1
+2020-04-29 11:42:16.030 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingTRACE_1
+2020-04-29 11:42:16.072 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:42:16.075 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:42:16.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:42:16.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-29 11:42:16.106 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.737 seconds (JVM running for 4.269)
+2020-04-29 11:42:18.088 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 11:42:18.089 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 11:42:18.102 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-04-29 11:47:13.737 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:47:13.739 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-29 11:47:17.806 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 16819 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-29 11:47:17.813 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-29 11:47:18.585 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 11:47:18.587 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-29 11:47:18.603 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-04-29 11:47:18.844 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.sch.springbootkuangshen.config.ShiroConfig$$EnhancerBySpringCGLIB$$8ce3166b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:47:18.881 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealM' of type [com.sch.springbootkuangshen.config.UserRealM] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:47:19.030 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:47:19.198 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-29 11:47:19.206 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:47:19.207 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 11:47:19.207 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-29 11:47:19.310 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-29 11:47:19.310 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1358 ms
+2020-04-29 11:47:20.113 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4816ee24, org.springframework.security.web.context.SecurityContextPersistenceFilter@54a2d96e, org.springframework.security.web.header.HeaderWriterFilter@415ef4d8, org.springframework.security.web.csrf.CsrfFilter@3b42121d, org.springframework.security.web.authentication.logout.LogoutFilter@173f1614, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@24c8d8be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d229b1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76cf841, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@67bf0480, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20d33ea, org.springframework.security.web.session.SessionManagementFilter@535b1ae6, org.springframework.security.web.access.ExceptionTranslationFilter@733ec58b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e62ead7]
+2020-04-29 11:47:20.130 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-29 11:47:20.216 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:47:20.261 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-29 11:47:20.685 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-29 11:47:20.696 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2020-04-29 11:47:20.718 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:47:20.867 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2020-04-29 11:47:20.874 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingHEAD_1
+2020-04-29 11:47:20.880 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-04-29 11:47:20.885 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPUT_1
+2020-04-29 11:47:20.890 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPATCH_1
+2020-04-29 11:47:20.895 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingDELETE_1
+2020-04-29 11:47:20.900 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingOPTIONS_1
+2020-04-29 11:47:20.904 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingTRACE_1
+2020-04-29 11:47:20.951 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:47:20.953 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:47:20.961 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:47:20.975 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-29 11:47:20.977 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 3.719 seconds (JVM running for 4.262)
+2020-04-29 11:47:26.076 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 11:47:26.076 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 11:47:26.082 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-29 11:54:36.965 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:54:36.966 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-04-29 11:54:41.214 [main] INFO  c.s.s.SpringbootKuangshenApplication - Starting SpringbootKuangshenApplication on sch with PID 18901 (/home/sch/project/untitled/springboot-kuangshen/target/classes started by sch in /home/sch/project/untitled/springboot-kuangshen)
+2020-04-29 11:54:41.238 [main] INFO  c.s.s.SpringbootKuangshenApplication - No active profile set, falling back to default profiles: default
+2020-04-29 11:54:42.036 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-29 11:54:42.037 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-29 11:54:42.055 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-04-29 11:54:42.309 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.sch.springbootkuangshen.config.ShiroConfig$$EnhancerBySpringCGLIB$$df2d90e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:54:42.347 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealM' of type [com.sch.springbootkuangshen.config.UserRealM] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:54:42.499 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-29 11:54:42.683 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+2020-04-29 11:54:42.691 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:54:42.692 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-29 11:54:42.692 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-29 11:54:42.801 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring embedded WebApplicationContext
+2020-04-29 11:54:42.802 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1453 ms
+2020-04-29 11:54:43.654 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61874b9d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e62ead7, org.springframework.security.web.header.HeaderWriterFilter@41d16cc3, org.springframework.security.web.csrf.CsrfFilter@68c9e023, org.springframework.security.web.authentication.logout.LogoutFilter@e09f1b6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@56846330, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@bf75b5c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@343fddd9, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@30db5536, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d611f1c, org.springframework.security.web.session.SessionManagementFilter@2e43c38d, org.springframework.security.web.access.ExceptionTranslationFilter@7c369270, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17229821]
+2020-04-29 11:54:43.676 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-29 11:54:43.771 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-29 11:54:43.821 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-29 11:54:44.309 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-29 11:54:44.323 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 3 custom documentation plugin(s)
+2020-04-29 11:54:44.356 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:54:44.623 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingGET_1
+2020-04-29 11:54:44.632 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingHEAD_1
+2020-04-29 11:54:44.639 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2020-04-29 11:54:44.663 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPUT_1
+2020-04-29 11:54:44.671 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPATCH_1
+2020-04-29 11:54:44.678 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingDELETE_1
+2020-04-29 11:54:44.693 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingOPTIONS_1
+2020-04-29 11:54:44.708 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingTRACE_1
+2020-04-29 11:54:44.812 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:54:44.815 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-29 11:54:44.826 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+2020-04-29 11:54:44.901 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path '/springBootWeb'
+2020-04-29 11:54:44.905 [main] INFO  c.s.s.SpringbootKuangshenApplication - Started SpringbootKuangshenApplication in 4.247 seconds (JVM running for 4.769)
+2020-04-29 11:54:46.310 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springBootWeb] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-29 11:54:46.310 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-29 11:54:46.315 [http-nio-8089-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-04-29 12:02:46.319 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-29 12:02:46.321 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...

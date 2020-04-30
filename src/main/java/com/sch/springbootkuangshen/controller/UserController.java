@@ -5,6 +5,9 @@ package com.sch.springbootkuangshen.controller;
  * @PackName com.sch.springbootkuangshen.controller
  * @Project springboot-kuangshen
  */
+import com.sch.springbootkuangshen.model.User;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
@@ -30,5 +33,10 @@ public class UserController {
             model.addAttribute("msg","登录失败，请重新登录");
             return "index";
         }
+    }
+    @ApiOperation("Swagger Controller测试")
+    @RequestMapping(path = "/user")
+    public User user(@ApiParam("姓名") String name){
+        return new User();
     }
 }
